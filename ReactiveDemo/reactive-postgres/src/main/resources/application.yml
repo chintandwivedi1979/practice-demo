@@ -1,0 +1,15 @@
+debug : true
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+#    url: jdbc:postgresql://127.0.0.1:5432/postgres
+#    driver-class-name: org.postgresql.Driver
+#    driverClassName: org.postgresql.Driver
+    database: demodb
+    host: localhost
+    port: 5432
+    username: demouser
+    password: demopwd
